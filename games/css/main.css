@@ -1,0 +1,33 @@
+.menu   {
+    background-color: #D01D36;
+    color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    width: 100%;
+    font-size: 10px;
+}
+.menu a {
+    color: white;
+}
+#logoMajestic {
+    width: 90px;
+}
+.navbar-brand:hover {
+    color: white;
+}
+
+footer{
+    height: 160px;
+    width: 100%;
+    position:inherit ;
+    margin-bottom: 0px;
+    font-family: var(--fuenteMontserrat);
+    color:var(--blanco);
+    font-size: 1.2rem;
+    font-weight: 300;
+    background-color: #D01D36;
+    margin-top: 10%;
+}
+
