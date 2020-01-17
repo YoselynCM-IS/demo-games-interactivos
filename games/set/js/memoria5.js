@@ -106,7 +106,11 @@
 			var frag = '';
 			this.$cards.each(function(k, v){
 				frag += '<div class="card" data-id="'+ v.id +'"><div class="inside">\
-				<div class="front"><img src="'+ v.img +'"\
+				<div class="front">\
+				<a id="btnA" style="position: absolute; left: 75%; width:25%;\
+				height: 25%; font-size: 150%; background-color: transparent;">\
+				<i class="fa fa-eye" style="color: #D01D36";></i></a>\
+				<img id="btnFront" style="float: center;" src="'+ v.img +'"\
 				alt="'+ v.name +'" /></div>\
 				<div class="back"><img src="images/majesticcarta.jpg"\
 				alt="Majestic" /></div></div>\
