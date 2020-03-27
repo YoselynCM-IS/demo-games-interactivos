@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Majestic Education</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="games/css/main.css">
+		<link rel="stylesheet" href="games/css/index.css">
+	</head>
+	<body>
+		<div class="menu">
+			<a style="color: white" href="https://majesticeducacion.com.mx/" class="navbar-brand">
+				<img id="logoMajestic" src="games/images/majestic-education.png" alt=""> Majestic Education
+			</a>
+			<a class="navbar-brand" href="http://majesticeducationdigital.com/interactive/start/">Start</a>
+        </div>
+		<div class="container">
+			<div align="center" class="header" style="margin-top: 60px;">
+				<img class="img-fluid" src="games/images/majestic-education.png" alt="" width="250px">
+			</div>
+			<br>
+			<div align="center">
+				<form name="login">
+					<input
+						id="inputLogin"
+						class="form-control col-md-6" 
+						type="text" 
+						placeholder="Username" 
+						name="userid"
+						autofocus=""><br>
+					<input
+						id="inputLogin"
+						class="form-control col-md-6" 
+						type="password" 
+						placeholder="Password" 
+						name="pswrd"><br><br>
+					<input
+						id="btnLogin"
+						class="btn" 
+						type="button"
+						onclick="check(this.form)"
+						value="Login">
+				</form>
+			</div>
+		</div>
+		<script language="javascript">
+			function check(form) {
+				if(form.userid.value == "majestic" && form.pswrd.value == "1234") {
+					window.open('start.html', '_self')
+				}
+				else {
+					Swal.fire({
+						icon: 'error',
+						title: 'Oops...',
+						text: 'The username and/or password are incorrect.'
+					});
+				}
+			}
+		</script>
+		<script type="text/javascript" src="games/set/js/lockWebSite.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+	</body
