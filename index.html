@@ -5,56 +5,7 @@
         <title>Majestic Education</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="games/css/main.css">
-        <style >
-            @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900|Montserrat:300,300i,400,400i,500,500i,700,700i|Open+Sans:300,400,400i,700&display=swap');
-            :root{
-                /** */
-                --fuenteOpensans:'Open Sans', sans-serif;
-                /** Colores */
-                --grisClaro:#f2f2f2;
-                --blanco:#ffffff;
-                --grisobscuro:#c1c1c1;
-                --grisTexto:#17202A;
-                --grisRespuestas:#2C3E50;
-                --naranja:#ef4c44;
-                --botonNaranja:#d91c5c;
-                --verde:#84b34a;
-                --botonMorado:#7d4f9d;
-                --morado:#7d4f9d;
-                --amarilloClaro:#f7ca39;
-                --amarilloF:#f2991f;
-                --botonMagenta:#e02e70;
-                --rojoma:#A93439;
-            }
-            body{
-                font-family: var(--fuenteMontserrat);
-                font-size: 1.2rem;
-                line-height: 2;
-                background-color: var(--grisClaro);
-            }
-            .container {
-                padding-top:8%;
-            }
-            #btnAction {
-                margin-top:2rem;
-                font-family: var(--fuenteOpensans);
-                background-color: var(--amarilloF);
-                width: 200px;
-                color:var(--blanco);
-                padding: 1rem;
-                font-size: 1.6rem;
-                font-weight: 700;
-                border-radius:15px;
-            }
-            #btnAction i{
-                font-size: 4rem;
-            }
-            #btnAction:hover {
-                color:var(--blanco);
-                background-color: #D01D36;
-            }
-        </style>
+        <link rel="stylesheet" href="main.css">
     </head>
     <body>
         <div class="menu">
@@ -64,27 +15,33 @@
 			</a>
         </div>
         <div class="container text-center">
-            <div class="row">
-                <div class="col-md-4">
+            <div class="row text-center">
+                <div class="col-md-6">
                     <a id="btnAction" class="btn" href="https://agile-falls-41189.herokuapp.com/">
                         <i class="fa fa-cubes"></i><br>Lessons
                     </a>
                 </div>
-                <div class="col-md-4">
-                    <a id="btnAction" class="btn" href="http://limitless-chamber-26467.herokuapp.com/demo">
-                        <i class="fa fa-book"></i><br> EBook
-                    </a>
-                </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <a id="btnAction" class="btn" href="games/index.html">
                         <i class="fa fa-gamepad"></i><br>Games
                     </a>
                 </div>
             </div>
-            <a id="btnAction" class="btn" href="http://generate-exam-demo.herokuapp.com/login">
-                <i class="fa fa-bank"></i><br> Reagent bank
-            </a>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <a id="btnAction" class="btn" href="http://limitless-chamber-26467.herokuapp.com/demo">
+                        <i class="fa fa-book"></i><br> EBook
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a id="btnAction" class="btn" href="http://generate-exam-demo.herokuapp.com/login">
+                        <i class="fa fa-bank"></i><br> Reagent bank
+                    </a>
+                </div>
+            </div>
         </div>
     </body>
-    <footer></footer>
+    <footer>
+        <p>Derechos Reservados © <a id="linkA" href="https://majesticeducacion.com.mx/">Majestic Education</a>.</p>
+    </footer>
 </html>

@@ -1,6 +1,15 @@
+:root{
+    /* Fuentes */
+    --fuenteMontAlt: 'Montserrat Alternates', sans-serif;;
+    --fuenteMontserrat: 'Montserrat', sans-serif;
+    /** Colores */
+    --blanco:#ffffff;
+    --amarilloF:#f2991f;
+    --rojoObscuro: #D01D36;
+}
 .menu   {
-    background-color: #D01D36;
-    color: white;
+    background-color: var(--rojoObscuro);
+    color: var(--blanco);
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -8,14 +17,14 @@
     width: 100%;
     font-size: 10px;
 }
-.menu a {
-    color: white;
-}
 #logoMajestic {
     width: 90px;
 }
+.navbar-brand {
+    color: var(--blanco);
+}
 .navbar-brand:hover {
-    color: white;
+    color: var(--blanco);
 }
 
 footer{
@@ -27,7 +36,46 @@ footer{
     color:var(--blanco);
     font-size: 1.2rem;
     font-weight: 300;
-    background-color: #D01D36;
+    background-color: var(--rojoObscuro);
     margin-top: 10%;
+}
+
+.box01 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 200px;
+    }
+.box01 img {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 170px;
+    }
+.box01_bottom {
+    position: relative;
+    background: var(--rojoObscuro);
+    z-index: 5;
+    width: 170px;
+    margin-top: 10px;
+    color: var(--blanco);
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    }
+.box01 .line {
+    background: var(--rojoObscuro);
+    margin: 30px 0 25px;
+    display: inline-block;
+    }
+.line {
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin: 15px 0;
+    background: var(--blanco);
+    }
+#contai{
+    padding-top: -600px;
 }
 
