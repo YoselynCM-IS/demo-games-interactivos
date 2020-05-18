@@ -869,4 +869,8 @@ button::-moz-focus-inner {
         margin-top: 300px;
     }
 
+    #btnA:active ~ #btnFront{
+        transform: scale(1.9) translate(-11%, -18%);
+    }
+
 
